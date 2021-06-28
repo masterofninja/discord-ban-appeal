@@ -21,7 +21,7 @@ const DiscordOauth2 = require("discord-oauth2");
 
 
 function App() {
-    const [icon, setIcon] = useState("https://media.discordapp.net/attachments/856299804018999296/858936156132868116/download_1.jpeg");
+    const [icon, setIcon] = useState("https://media.discordapp.net/attachments/856299804018999296/858937121930346546/download_1.jpeg");
     const [title, setTitle] = useState("StoneClan");
 
     axios.get("/.netlify/functions/guild")
