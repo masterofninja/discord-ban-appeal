@@ -38,7 +38,7 @@ function App() {
         <Router className="App">
             <Helmet>
                 <meta charSet="utf-8"/>
-                <title>{`${StoneClan} Discord Ban Appeal Application`}</title>
+                <title>{`${title} Discord Ban Appeal Application`}</title>
                 <link rel="icon" href={icon} type="image/x-icon"/>
             </Helmet>
             <Grid container
